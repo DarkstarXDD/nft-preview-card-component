@@ -20,23 +20,13 @@ This is my solution to the [NFT Preview Card Component challenge on FrontendMent
 
 - Mobile Responsive 📱
 - Self-hosted Fonts 🔡
-- PWA (Progressive Web App) 📱
 
 #
 
 ### Built with 🔧🔨
 
-- Grid & Flex Layouts 🔲
-- Mobile First Approach 📱
+- Flex Layout 🔲
 - BEM Naming Convention 📚
-
-#
-
-### New Things I Learned 🎓📖
-
-#
-
-### Helpful Resources 📜
 
 #
 
