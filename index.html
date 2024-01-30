@@ -1,8 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Darkstar" />
+    <meta
+      name="description"
+      content="Darkstar's solution for the NFT Preview Card Component challenge on frontendmentor.io"
+    />
+    <meta
+      property="og:title"
+      content="NFT Preview Card Component - Frontend Mentor"
+    />
+    <meta
+      property="og:description"
+      content="Darkstar's solution for the NFT Preview Card Component challenge on frontendmentor.io"
+    />
+    <meta property="og:image" content="./images/screenshot_desktop.jpeg" />
+    <meta property="og:image:alt" content="screenshot of the webpage" />
 
     <link
       rel="icon"
@@ -10,11 +25,77 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
+    <link rel="stylesheet" href="styles.css" />
     <title>NFT preview card component</title>
   </head>
+
   <body>
-    Equilibrium #3429 Our Equilibrium collection promotes balance and calm.
-    0.041 ETH 3 days left Creation of Jules Wyvern
+    <main>
+      <article class="card flex-column">
+        <div class="card__image">
+          <a
+            class="card__image-link"
+            href="https://www.google.com/"
+            target="_blank"
+            title="Preview the image in a new tab"
+            aria-label="Preview the image in a new tab"
+          >
+            <img
+              src="./images/image-equilibrium.jpg"
+              alt="a glass cube on a reflective background, refracting red color"
+              width="604"
+              height="604"
+            />
+          </a>
+        </div>
+
+        <h1 class="card__heading">
+          <a class="link-text" href="#">Equilibrium #3429</a>
+        </h1>
+        <p class="card__text">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+
+        <div class="card__info flex-row">
+          <div class="card__price flex-row">
+            <div>
+              <img
+                src="./images/icon-ethereum.svg"
+                alt=""
+                width="11"
+                height="18"
+              />
+            </div>
+            <p>0.041 ETH</p>
+          </div>
+
+          <div class="card__days flex-row">
+            <div>
+              <img
+                src="./images/icon-clock.svg"
+                alt=""
+                width="17"
+                height="17"
+              />
+            </div>
+            <p>3 days left</p>
+          </div>
+        </div>
+
+        <div class="card__line"></div>
+
+        <div class="card__creator flex-row">
+          <div class="card__avatar">
+            <img
+              src="./images/image-avatar.png"
+              alt="Jules Wyvern"
+              width="132"
+              height="132"
+            />
+          </div>
+          <p>Creation of <a class="link-text" href="#">Jules Wyvern</a></p>
+        </div>
+      </article>
+    </main>
   </body>
 </html>
