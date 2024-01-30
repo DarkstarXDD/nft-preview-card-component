@@ -74,6 +74,16 @@ img {
 .link-text:hover {
   color: var(--clr-primary-200);
 }
+
+.visually-hidden:not(:focus):not(:active) {
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
 /* --------------- End of Utility Classes --------------- */
 
 body {
