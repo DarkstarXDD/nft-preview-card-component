@@ -11,8 +11,8 @@ This is my solution to the [NFT Preview Card Component challenge on FrontendMent
 
 ### Links 🔗
 
-- Live Site URL:
-- Solution URL:
+- Live Site URL: https://nft-preview-card-component-darkstarxdd.vercel.app/
+- Solution URL: https://www.frontendmentor.io/solutions/nft-preview-card-component-qzvMw56KHz
 
 #
 
